@@ -11,17 +11,25 @@
 body {
     font-family: 'Open Sans', sans-serif;
 }
-
 a {
     color: #EF233C;
 }
-
 a:hover {
     text-decoration: none;
 }
-
 h1, h2 {
     font-family: 'Caveat', cursive;
+    font-weight: 400;
+}
+h1 {
+    font-size: 80px;
+}
+h2 {
+    font-size: 40px;
+}
+.content-wrap {
+    width: 950px;
+    margin: 0 auto;
 }
 
 /* Header & Footer
