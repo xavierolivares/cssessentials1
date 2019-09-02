@@ -8,6 +8,14 @@
 /* Global Styles 
 -------------------- */
 
+html {
+    box-sizing: border-box;
+  }
+
+*, *:before, *:after {
+    box-sizing: inherit;
+  }
+
 body {
     font-family: 'Open Sans', sans-serif;
     margin: 0;
@@ -36,6 +44,17 @@ h2 {
     padding: 50px;
     overflow: auto;
 }
+.col-narrow {
+    width: 30%;
+    float: left;
+    min-height: 175px;
+}
+.col-wide {
+    width: 70%;
+    float: left;
+    padding-left: 20px;
+    min-height: 175px;
+}
 
 /* Header & Footer
 -------------------- */
@@ -50,14 +69,8 @@ header h1, header h2 {
     color: #EDF2F4;
 }
 
-header {
-    /* text-align: center; */
-}
-
 .profile-img {
-    width: 300px;
     border-radius: 50%;
-    float: left;
 }
 
 /* footer */
