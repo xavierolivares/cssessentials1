@@ -21,6 +21,7 @@ a:hover {
 h1, h2 {
     font-family: 'Caveat', cursive;
     font-weight: 400;
+    margin: 0;
 }
 h1 {
     font-size: 80px;
@@ -33,6 +34,7 @@ h2 {
     max-width: 950px;
     margin: 0 auto;
     padding: 50px;
+    overflow: auto;
 }
 
 /* Header & Footer
@@ -46,6 +48,16 @@ header, footer {
 /* header */
 header h1, header h2 {
     color: #EDF2F4;
+}
+
+header {
+    /* text-align: center; */
+}
+
+.profile-img {
+    width: 300px;
+    border-radius: 50%;
+    float: left;
 }
 
 /* footer */
