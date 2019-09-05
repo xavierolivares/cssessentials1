@@ -29,7 +29,7 @@ body {
     margin: 0;
 }
 a {
-    color: #EF233C;
+    color: #5F1A37;
 }
 a:hover {
     text-decoration: none;
@@ -68,23 +68,28 @@ h2 {
 -------------------- */
 
 header, footer {
-    background: #2B2D42;
-    color: #8D99AE;
+    background: #04030F;
+    color: #73C2BE;
 }
 
 /* header */
 header h1, header h2 {
-    color: #EDF2F4;
+    color: #73C2BE;
 }
 
 .profile-img {
     border-radius: 50%;
 }
 
+.col-wide h2 {
+    color: #5F1A37
+}
+
 /* footer */
 
 footer {
     text-align: center;
+    font-size: 1.5em;
 }
 
 .contactinfo a {
@@ -103,5 +108,5 @@ footer {
 -------------------- */
 
 .education {
-    background: #8D99AE
+    background: #776885
 }
